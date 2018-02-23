@@ -125,12 +125,12 @@ What are the shipping options?
 
 **DHL Express shipping**
 
-Default shipping option. DHL Express shipping which costs $29 and it's fully traceable.
+Default shipping option. DHL Express shipping costs €17 and has a full track and trace capability.
 Delivery time is usually 2-5 business days.
 
 **Standard worldwide shipping**
 
-You can also choose Standard shipping for $10 and the traceability is limited.
+You can also choose Standard shipping option, however, the traceability is limited.
 Delivery time may vary between 5 days to 6 weeks depending on your location and your national post.
 
 
