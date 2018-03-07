@@ -4,12 +4,12 @@ CrowdIn.com - Tool for translating
 1. Register
 -------------
 
-Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `Support <https://satoshilabs.kayako.com/conversation/new/2>`_ with the subject “Translation TREZOR Wallet (Language)”.
+Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `translations coordinator <mailto:translations@satoshilabs.com>`_ with the subject “Translation TREZOR Wallet (Language)”.
 
 2. Join translation project
 ---------------------------
 
-Our support will reply by sending you an invitation to the requested language. Please, Join TREZOR Wallet translation project in CrowdIn using the provided link and navigate to the requested language. The language in the example below is Czech.
+We will reply by sending you an invitation to the requested language. Please, Join TREZOR Wallet translation project in CrowdIn using the provided link and navigate to the requested language. The language in the example below is Czech.
 
 .. important:: Please keep in mind the language you are selecting is actually the language you are going to translate **INTO**, not FROM. You will be always translating from English.
 
@@ -38,9 +38,9 @@ You will also find strings which contain placeholders and HTML tags. In that cas
 
 Please translate "**changed from**" and "**to**" only. It does not matter where these special strings are in the translated string, as long as you keep them spelled properly. If your language requires a specific word order, you may shuffle them. Do not, however, split the placeholder tags.
 
-Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI. 
+Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI.
 
-* To report any particular issue or to suggest specific improvements, use the Comments tab during translation. 
+* To report any particular issue or to suggest specific improvements, use the Comments tab during translation.
 * To report a general issue, please use the `Discussions panel. <https://crowdin.com/project/trezor-wallet/discussions>`_
 
 In case of any issues, difficulties or questions please check the `CrowdIn Documentation <https://support.crowdin.com/online-editor/>`_ or contact us via `Support <https://satoshilabs.kayako.com/conversation/new/2>`_
@@ -48,4 +48,4 @@ In case of any issues, difficulties or questions please check the `CrowdIn Docum
 Reward
 ^^^^^^
 
-For a complete translation of one language we offer a TREZOR device of your color choice (Black or White).
+For a complete translation of one language we offer a "TREZOR One" device of your color choice (Black or White).

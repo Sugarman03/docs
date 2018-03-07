@@ -14,14 +14,14 @@ To make a purchase:
 1. Select the color of your TREZOR and click "Buy now".
 2. You will be taken to the Shopping Cart. If you wish to add more products, you can do it right there by changing the amounts and hitting "Recalculate".
 3. Optionally switch DHL Express shipping to Standard Shipping by clicking the Standard Shipping tile below the cart.
-4. Proceed to entering your address and confirm with "Send order".
+4. Proceed to enter your address and confirm with "Send order".
 5. You will be taken to a page with your bitcoin payment instructions.
 6. Once the payment is confirmed through the Bitcoin network, we'll start to process your order and let you know when your order has been shipped.
 
 
 Can I order a TREZOR from Amazon?
 ---------------------------------
-Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_. 
+Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_.
 
 
 How can I pay?
@@ -47,14 +47,14 @@ Yes! At the moment you can pay either with BTC or Credit card. However getting b
 
 - `CoinAtmRadar.com <https://coinatmradar.com/>`_
 
-3. Buy from exchange:
+3. Buy from an exchange:
 
 - `Coinmama.com <https://www.coinmama.com/?ref=Satoshilabs>`_
 - `Coinbase.com <https://www.coinbase.com/join/52ff49fe40448fb26d00002a>`_
 - `Coinjar.com <https://Coinjar.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
 
-.. note:: If you buy bitcoin from exchange, please transfer coins to some standard wallet first (Mycelium, Electrum, Jaxx, Copay..) and then process the payment from there. Do not use the withdrawal from exchange as a payment for your order please.
+.. note:: If you buy bitcoin from an exchange, please transfer coins to some standard wallet first (Mycelium, Electrum, Jaxx, Copay..) and then process the payment from there. Do not use the withdrawal from an exchange as a payment for your order, please.
 
 4. Finding other means of exchange in your area
 
@@ -72,17 +72,17 @@ Each order is assigned a unique payment address. Once your payment is validated 
 My order got cancelled, why is that?
 ------------------------------------
 
-In general the orders are valid for 24 hours. Our customers sometimes create more orders at the same time without even noticing it. Please log into your `user account at TREZOR Shop <https://shop.trezor.io/user/profile>`_ and check your orders. It is possible you have multiple orders created at about the same time and one of them is paid, other(s) are cancelled. In such case you don't need to worry, your paid order will be shipped as usual and the notification email is regarding the other order(s). You can compare the order token in your user account and notification email.
+In general, the orders are valid for 24 hours. Our customers sometimes create more orders at the same time without even noticing it. Please log into your `user account at TREZOR Shop <https://shop.trezor.io/user/profile>`_ and check your orders. It is possible you have multiple orders created at about the same time and one of them is paid, other(s) are cancelled. In such case you don't need to worry, your paid order will be shipped as usual and the notification email is regarding the other order(s). You can compare the order token in your user account and notification email.
 
 Are you sure you created and paid only one order and it still got cancelled? This can happen for various reasons:
 
 **Insufficient amount:**
 
-The service you used to send the payment deducts fees from the final amount (typically exchange services) and we received insufficient amount. In such case you need to contact our support and request refund.
+The service you used to send the payment deducts fees from the final amount (typically exchange services) and we received the insufficient amount. In such case, you need to contact our support and request refund.
 
 **Paid after timeout:**
 
-Currently our system accepts payments if received within 3 hours since the payment request. If the transaction is accepted later, you need to contact our support and request refund.
+Currently, our system accepts payments if received within 3 hours since the payment request. If the transaction is accepted later, you need to contact our support and request refund.
 
 **Unconfirmed transaction:**
 
@@ -117,7 +117,7 @@ We will try to include it as soon as possible.
 How long does it take you to handle the order?
 ----------------------------------------------
 
-We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday). If an order is made before 10:00 CET/CEST on the shipping day, we ship the order the same day.
+We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday - in December and especially before Christmas, there may be some delays due to the higher demand for our product). If an order is paid before 10:00 CET/CEST on the shipping day, we usually ship the order the same day. Otherwise, the estimated shipping is within two business days after the payment is confirmed.
 
 
 What are the shipping options?
@@ -125,14 +125,13 @@ What are the shipping options?
 
 **DHL Express shipping**
 
-Default shipping option. DHL Express shipping which costs $29 and it's fully traceable.
-Delivery time is usually 2-5 business days.
+Default shipping option. The price for DHL Express shipping may vary depending on your location and is not available for Russia. It offers full track and trace capability. Delivery time is usually 2-5 business days.
 
-**Standard worldwide shipping**
+**Standard shipping**
 
-You can also choose Standard shipping for $10 and the traceability is limited.
-Delivery time may vary between 5 days to 6 weeks depending on your location and your national post.
+You can also choose standard postal shipping, which has limited traceability in certain countries. Delivery time may vary between 5 days to 6 weeks depending on your location and your national post. Standard shipping is offered for free within the EU.
 
+You can read more about our shipping system `here <https://blog.trezor.io/trezor-shipping-process-delivery-dispatch-explained-order-logistics-58e45e25ee8>`_
 
 
 Where can I follow my order (get a tracking number)?
@@ -154,7 +153,7 @@ You can follow the status of your order via your `TREZOR Shop User Profile <http
 Can you deliver one order to multiple addresses?
 ------------------------------------------------
 
-We can't split orders already made, however you can create as many orders with different addresses under your TREZOR Shop User Profile.
+We can't split orders already made, however, you can create as many orders with different addresses under your TREZOR Shop User Profile.
 
 
 My package didn't arrive yet. What can be the reason?
@@ -172,19 +171,19 @@ How do I recognize my package got lost?
 
 The investigation can be initiated if your package meets at least one of the following criteria:
 
-- if package does not leave country of origin according to it's tracking in 10 days
-- if package does not appear on foreign tracking in 21 days
+- if the package does not leave the country of origin according to it's tracking in 10 days
+- if the package does not appear on foreign tracking in 21 days
 - if the last update on foreign tracking is older than 10 days
 
 
 How does the investigation work and how long does it take?
 ----------------------------------------------------------
 
-Investigation process takes up to 6 weeks since your request due to the processing time of post office in the country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. 
+Investigation process takes up to 6 weeks since your request due to the processing time of post office in the country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date.
 
 
 I want to start the investigation. What should I do?
 ----------------------------------------------------
 
-In that case we will need you to contact us via `Support Center <https://trezor.io/support>`_ to initiate the investigation process.
+In that case, we will need you to contact us via `Support Center <https://trezor.io/support>`_ to initiate the investigation process.
 

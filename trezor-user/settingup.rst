@@ -10,7 +10,6 @@ There are four options to make TREZOR communicate with `TREZOR Wallet <https://w
 
 To allow TREZOR communicate with `TREZOR Wallet <https://wallet.trezor.io>`_ you need to install a piece of software called TREZOR Bridge.  When you go to `TREZOR Wallet <https://wallet.trezor.io>`_ website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
-
 2. TREZOR Chrome extension
 --------------------------
 

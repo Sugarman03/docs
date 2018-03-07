@@ -36,7 +36,7 @@
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="TREZOR Apps 1.0 documentation" href="index.html"/>
         <link rel="next" title="Electrum-DASH" href="electrum-dash.html"/>
-        <link rel="prev" title="Copay" href="copay.html"/> 
+        <link rel="prev" title="EFOLIO" href="efolio.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -118,14 +118,11 @@
 <li class="toctree-l2"><a class="reference internal" href="coinpayments.html#trezor-user-manual">TREZOR User Manual</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="copay.html">Copay</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#what-is-copay">What is Copay?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#trezor-user-manual">TREZOR User Manual</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#creating-2-of-3-shared-wallet">Creating 2-of-3 shared wallet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#receiving-payment-in-shared-wallet">Receiving payment in shared wallet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#creating-watch-only-wallet-on-any-mobile-device">Creating watch-only wallet on any mobile device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#how-to-restore-your-trezor-seed-using-copay">How to Restore Your TREZOR Seed Using Copay</a></li>
-<li class="toctree-l2"><a class="reference internal" href="copay.html#properties-and-features">Properties and Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="efolio.html">EFOLIO</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="efolio.html#what-is-efolio">What is EFOLIO?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="efolio.html#trezor-user-manual">TREZOR User Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="efolio.html#syncing-your-trezor-with-efolio">Syncing Your TREZOR With EFOLIO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="efolio.html#diversify-your-portfolio-with-shapeshift">Diversify Your Portfolio With Shapeshift</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Electrum</a><ul>
@@ -192,11 +189,6 @@
 <li class="toctree-l2"><a class="reference internal" href="trezorwallet.html#properties-and-features">Properties and Features</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="wordpress.html">Wordpress</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="wordpress.html#what-is-wordpress">What is Wordpress?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="wordpress.html#trezor-user-manual">TREZOR User Manual</a></li>
-</ul>
-</li>
 </ul>
 
           
@@ -221,7 +213,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
+    <li><a href="/">Docs</a> &raquo;</li>
       
     <li>Electrum</li>
       <li class="wy-breadcrumbs-aside">
@@ -335,7 +327,7 @@ If you already have another wallet, select New Wallet from File menu first.</p>
 </tr>
 <tr class="row-even"><td><em class="fa-th fa"></em>   Smart PIN Matrix</td>
 <td>✔</td>
-<td>Keylogger protection, displaying PIN matrix on TREZOR&#8217;s display</td>
+<td>Keylogger protection, displaying PIN matrix on TREZOR’s display</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-eye-slash fa"></em> Watch-only mode</td>
 <td>✔</td>
@@ -347,18 +339,18 @@ If you already have another wallet, select New Wallet from File menu first.</p>
 </tr>
 <tr class="row-odd"><td><em class="fa-sliders fa"></em> Change PIN</td>
 <td>✔</td>
-<td>User can change TREZOR&#8217;s PIN</td>
+<td>User can change TREZOR’s PIN</td>
 </tr>
 <tr class="row-even"><td><em class="fa-sliders fa"></em> Change Name</td>
 <td>✔</td>
-<td>User can change TREZOR&#8217;s name</td>
+<td>User can change TREZOR’s name</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-paint-brush fa"></em> Custom Homescreen</td>
 <td>✔</td>
 <td>User can upload personalized default screen</td>
 </tr>
 <tr class="row-even"><td><em class="fa-upload fa"></em>  Update Firmware</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>Notify user and update firmware when new version is available</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-fire fa"></em> Wipe device</td>
@@ -378,11 +370,11 @@ If you already have another wallet, select New Wallet from File menu first.</p>
 <td>Recover by directly loading seed into TREZOR, fast but less safe way to recover wallet</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-lock fa"></em> Wallet Encryption</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>Wallet can be decrypted and opened using TREZOR only</td>
 </tr>
 <tr class="row-even"><td><em class="fa-lock fa"></em> Sign in with TREZOR</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>TREZOR is used for online authentication without using username and password</td>
 </tr>
 </tbody>
@@ -403,7 +395,7 @@ If you already have another wallet, select New Wallet from File menu first.</p>
         <a href="electrum-dash.html" class="btn btn-neutral float-right" title="Electrum-DASH" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="copay.html" class="btn btn-neutral" title="Copay" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="efolio.html" class="btn btn-neutral" title="EFOLIO" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
