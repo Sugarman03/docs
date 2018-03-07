@@ -14,7 +14,7 @@ To allow TREZOR communicate with `TREZOR Wallet <https://wallet.trezor.io>`_ you
 2. TREZOR Chrome extension
 --------------------------
 
-An alternative to TREZOR Bridge is TREZOR Chrome extension. `TREZOR Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_ can be used cross platforms, however only with Chrome based browsers. Linux users need to perform additional configuration of their system. For more details, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`. After you successfully install the extension, please open the `Apps tab <chrome://apps/>`_ and double click on the TREZOR Extension.
+An alternative to TREZOR Bridge is TREZOR Chrome extension. `TREZOR Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_ can be used across platforms, however only with Chrome-based browsers. Linux users need to perform additional configuration of their system. For more details, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`. After you successfully install the extension, please open the `Apps tab <chrome://apps/>`_ and double click on the TREZOR Extension.
 
 .. note:: There is still a possibility to download the  `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Google is planning to end its support for Chrome apps. As a result, this solution will not be available when that happens.
 
@@ -32,13 +32,13 @@ For more details, see our step by step manual :doc:`how to set up TREZOR with TR
 4. Offline with Python tools
 ----------------------------
 
-This procedure is only for advanced users! We do not recommend to use it unless you have some experience with command line and Python. If you wish to proceed further anyway please visit our `Github repository <https://github.com/trezor/python-trezor>`_.
+This procedure is only for advanced users! We do not recommend to use it unless you have some experience with a command line and Python. If you wish to proceed further anyway please visit our `Github repository <https://github.com/trezor/python-trezor>`_.
 
 
 Setting up TREZOR with TREZOR Wallet
 -----------------------------
 
-Now you've successfully established a communication between your TREZOR and TREZOR Wallet. Good job! There are still couple of steps you need to take in order to start using your TREZOR, so let's get right into it.
+You've successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to go to `TREZOR Wallet <https://wallet.trezor.io>`_. There are still a couple of steps you need to take in order to start using your TREZOR, so let's get right into it.
 
 As TREZOR comes without a firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen. 
 
@@ -48,17 +48,17 @@ In order to install or update the firmware, you will have to enter a so-called b
 
 .. note:: Since the latest bootloader version 1.3.2, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update.
 
-After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can chose to either Create a new wallet or Recover wallet. Simply click on "Create new" button.
+After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can choose to either Create a new wallet or Recover wallet. Simply click on "Create new" button.
 
 .. note:: With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see :doc:`Recovery process <recoveryprocess>`
 
 Once you create a new wallet, you're pretty much inside your own TREZOR Wallet and you can look through all of the features it has to offer. However, it would be very unwise to use your TREZOR Wallet without having it backed up. Therefore, we strongly advise to proceed with the backup and write down your recovery seed immediately. 
 
-After you agree with the terms, you will see a unique combination of words on your TREZOR screen which need to be written down to your recovery card. The whole process is described in the follwoing section :doc:`Filling out your Recovery Card <fillingoutyourrecoverycard>`.
+After you agree to the terms, you will see a unique combination of words on your TREZOR screen which need to be written down to your recovery card. The whole process is described in the following section :doc:`Filling out your Recovery Card <fillingoutyourrecoverycard>`.
 
 .. note:: TREZOR One generates a 24-word seed by default. However, TREZOR T is backed up by a simple 12-word recovery seed, which is also compatible with the common standards for HD wallets (BIP32/39/44).
 
-After you've succesfully backed up your device, you will be able to label your TREZOR. The maximum label length is 16 characters.
+After you've successfully backed up your device, you will be able to label your TREZOR. The maximum label length is 16 characters.
 
 Once you've personalized your TREZOR, the last step is to create a PIN. It is best to choose a strong PIN to protect your device from unauthorized access. Entering a PIN on TREZOR One is explained in the following section :doc:`Entering your PIN <enteringyourpin>` After you re-confirm your PIN, you can start using your TREZOR Wallet safely.
 
